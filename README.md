@@ -9,8 +9,7 @@
     
 # 数据格式定义
 
-TABLE_NAME: STUD_PROCESS_DETAIL(学生做题详细)
-
+TABLE_NAME: STUD_PROCESS_DETAIL(学生做题详细)：
 student_id	学生ID
 school_id	学校ID
 grade	    年级
@@ -25,8 +24,7 @@ duration	做题时长
 school_level学段
 
 
-TABLE_NAME：TEA_PROCESS_DETAIL(老师布置作业详细)
-
+TABLE_NAME：TEA_PROCESS_DETAIL(老师布置作业详细)：
 col_name	注释
 teacher_id	老师ID
 region_id	老师地区ID
