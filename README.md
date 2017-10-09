@@ -9,6 +9,36 @@
     
 # 数据格式定义
 
+TABLE_NAME: STUD_PROCESS_DETAIL(学生做题详细)
+
+student_id	学生ID
+school_id	学校ID
+grade	    年级
+group_id	班组ID
+homework_id	作业ID
+subject	    学科
+question_id	题目ID
+facility	题目难易度
+kp_id	    题目相关知识点
+is_right	是否回答正确
+duration	做题时长
+school_level学段
+
+
+TABLE_NAME：TEA_PROCESS_DETAIL(老师布置作业详细)
+
+col_name	注释
+teacher_id	老师ID
+region_id	老师地区ID
+school_id	学校ID
+grade	    年级
+group_id	班组ID
+homework_id	作业ID
+subject	    学科
+question_id	题目ID
+kp_id	    题目相关知识点
+school_level学段
+
 # 下载地址
   中国大陆机构下载地址 ： http://101.251.244.26/download_api/   
   境外机构下载地址 ：http://164.52.12.42/download_api/ 
